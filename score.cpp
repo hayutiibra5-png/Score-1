@@ -3,19 +3,19 @@
 using namespace std;
 
 int main() {
-    double score;
+    double mark;
     char grade;
 
-    cout << "Enter your score (0-100): ";
-    cin >> score;
+    cout << "Enter your mark (0-100): ";
+    cin >> mark;
 
-    if (score >= 90)
+    if (mark >= 90)
         grade = 'A';
-    else if (score >= 80)
+    else if (mark >= 80)
         grade = 'B';
-    else if (score >= 70)
+    else if (mark >= 70)
         grade = 'C';
-    else if (score >= 60)
+    else if (mark >= 60)
         grade = 'D';
     else
         grade = 'F';
